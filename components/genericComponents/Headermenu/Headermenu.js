@@ -42,9 +42,10 @@ export default class Headermenu extends Component {
 				<ul className={[css["main-header__expanded-nav-list"]].join("\n")} onClick={this.closeExpandedNavDropdown.bind(this)}>
 					<li className={css["main-header__expanded-nav-item--home"]} key="mainlogo">
 						<a href="/">
-							<div className={css["main-header__nav-home-container"]}>
-								<img src="/images/logo/logowithtext.svg" alt="logo" className={css["main-header__nav-home-logo"]} />
-								<img src="/images/logo/logo.svg" alt="logo" className={css["main-header__nav-home-logo--mobile"]} />
+						<div className={css["main-header__nav-home-container"]}>
+                                <img src="/images/logo/nieuwlogo.png" alt="logo" className={css["main-header__nav-home-logo"]} />
+                                <img src="/images/logo/nieuwlogo.png" alt="logo" className={css["main-header__nav-home-logo--mobile"]} />
+
 							</div>
 						</a>
 					</li>
@@ -83,8 +84,8 @@ export default class Headermenu extends Component {
 						<nav className={css["main-header__nav-home"]}>
 							<a href="/">
 								<div className={css["main-header__nav-home-container"]}>
-									<img src="/images/logo/logowithtext.svg" alt="logo" className={css["main-header__nav-home-logo"]} />
-									<img src="/images/logo/logo.svg" alt="logo" className={css["main-header__nav-home-logo--mobile"]} />
+									<img src="/images/logo/nieuwlogo.png" alt="logo" className={css["main-header__nav-home-logo"]} />
+									<img src="/images/logo/nieuwlogo.png" alt="logo" className={css["main-header__nav-home-logo--mobile"]} />
 								</div>
 							</a>
 						</nav>

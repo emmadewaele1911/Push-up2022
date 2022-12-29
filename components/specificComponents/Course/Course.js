@@ -22,7 +22,7 @@ export default class Course extends Component {
 					<div className={css["course-page__main-content"]}>
 						<div id="course-page__short-description" key="course-page__short-description" className={css["course-page__short-description"]}>
 							<section className={css["rich-text-section--with-navigator"]}>
-								<h2 className={css["rich-text-section__title"]}>What will we learn</h2>
+								<h2 className={css["rich-text-section__title"]}>What will you get</h2>
 								<div className={css["rich-text-section__rich-text"]}>{RichTextToHTML({ document: this.props.blok.description })}</div>
 							</section>
 						</div>
@@ -34,14 +34,7 @@ export default class Course extends Component {
 								))}
 							</section>
 						</div>
-						<div id="course-page__short-description" key="course-page__short-description" className={css["course-page__short-description"]}>
-							<section className={css["rich-text-section--with-navigator"]}>
-								<h2 className={css["rich-text-section__title"]}>Locations</h2>
-								{this.props.blok.locations && this.props.blok.locations.map((location) => (
-									<Element blok={location} key={location._uid} />
-								))}
-							</section>
-						</div>
+						
 					</div>
 
 					{this.props.blok.bottombloks && this.props.blok.bottombloks.map((nestedBlok) => (

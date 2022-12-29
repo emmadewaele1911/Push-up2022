@@ -11,7 +11,7 @@
   &__highlighted-text {
     
     &--blue {
-      @include title-font($color-blue-normal)
+      @include title-font($color-red-normal)
     }
     &--purple {
       @include title-font($color-purple-normal)

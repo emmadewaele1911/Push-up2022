@@ -10,7 +10,7 @@
   font-size: 14px;
   color: $color-default;
   cursor: pointer;
-  background-color: white;
+  background-color: rgb(190, 188, 188);
   border: solid 2px $color-default;
   text-align: center;
   align-items: center;
@@ -22,7 +22,7 @@
   }
 
   &:hover, &:active {
-    background-color: white;
+    background-color: rgb(190, 188, 188);
     color: $color-blue-normal;
     border: solid 2px $color-blue-normal;
   }
@@ -60,7 +60,7 @@
     padding: 15px;
     border-radius: 14px;
     border: 2px solid $color-default;
-    background-color: white;
+    background-color: rgb(190, 188, 188);
     transform: translateX(-50%);
   }
   
@@ -92,7 +92,7 @@
     padding: 15px;
     border-radius: 14px;
     border: 2px solid $color-default;
-    background-color: white;
+    background-color: rgb(190, 188, 188);
     
     &--open {
       @extend .main-header__expanded-nav-dropdown;
@@ -126,7 +126,7 @@
     flex-direction: column;
     padding: 15px;
     border-radius: 14px;
-    background-color: white;
+    background-color: rgb(190, 188, 188);
   }
   
   &__dropdown-item-container {
@@ -157,7 +157,7 @@
     padding: 15px;
     border-radius: 14px;
     border: 2px solid $color-default;
-    background-color: white;
+    background-color: rgb(190, 188, 188);
     
     &--open {
       @extend .main-header__expanded-nav-dropdown;
