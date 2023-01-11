@@ -160,7 +160,7 @@
     width: 75%;
     min-width: 270px;
     height: 100%;
-    background-color: rgb(190, 188, 188);
+    background-color: rgb(241, 232, 232);
     overflow-y: auto;
     animation-name: slideInLeft;
     animation-duration: 500ms;
@@ -226,7 +226,7 @@
     padding: 15px;
     border-radius: 14px;
     border: 2px solid $color-default;
-    background-color: rgb(190, 188, 188);
+    background-color: rgb(241, 241, 241);
     
     &--open {
       @extend .main-header__expanded-nav-dropdown;
